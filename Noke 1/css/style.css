@@ -1,0 +1,68 @@
+.container{
+    margin: 0 auto;
+    background-color: #1b2232;
+}
+
+.container-item{
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+    font-size: 27px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+}
+
+.container-item span{
+    text-align: center;
+    color: white;
+}
+
+.container-item i{
+    color: #4eaf4e;
+    font-size: 50px;
+}
+
+.container-item div{
+    display: flex;
+
+}
+
+
+/* 2ci hisse */
+
+body{
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.navbar{
+    margin: 20px auto  ;
+    width: 1200px;
+    height: 400px;
+    /* border: 1px solid rgba(194, 194, 194, 0.685);  */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f3f4f7;
+}
+
+.navbar div{
+    /* border: 1px solid rgb(141, 141, 141); */
+    margin: 0 15px;
+}
+.navbar div h3{
+    margin-top: 15px;
+    color: #4eaf4e;  
+}
+.navbar div span{
+    margin-top: 15px;
+    font-size: 28px;
+}
+.navbar div p{
+    margin-top: 15px;
+    font-size: 25px;
+}
+.navbar div{
+    width: auto;
+    height: auto;
+}
