@@ -1,5 +1,5 @@
 .container{
-    margin: 40px auto;
+    margin: 60px auto;
 }
 .container h1,h5{
     display: flex;
@@ -10,7 +10,32 @@
     font-family: "Raleway", sans-serif;
     font-weight: normal;
     font-size: 30px;
+    /* margin-bottom: 20px; */
 }
 .container h5{
     font-size: 20px;
+    margin-bottom: 150px;
+    color: #859196;
+}
+
+.service-item{
+    /* border: 1px solid gray; */
+    min-height: 300px;
+    margin: 0 40px ;
+    display: flex;
+    flex-direction: column;
+}
+.service-item i{
+    color: #4586FF;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.service-item span{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.service-item p{
+    font-size: 20px;
+    font-weight: normal;
+    color: #859196;
 }
