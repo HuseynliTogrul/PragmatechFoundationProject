@@ -1,0 +1,16 @@
+.container{
+    margin: 40px auto;
+}
+.container h1,h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h1{
+    font-family: "Raleway", sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+.container h5{
+    font-size: 20px;
+}
