@@ -17,6 +17,27 @@
 /* section */
 
 .section{
-   
+   border: 3px solid black;
+   margin-top: 15px;
+   height: 350px;
+   font-size: 20px;
+   padding: 5px;
 }
+.article{
+   border: 3px solid black;
+   margin: 20px 15px;
+   padding: 5px;
+   height: 200px;
+}
+.article1{
+   font-size: 20px;
+   line-height:2;
+   margin: 15px 20px;
+}
+.header1,.section1,.footer1{
+   border: 3px solid black;
+   margin-bottom: 7px;
+   padding: 0 10px;
+}
+
 
