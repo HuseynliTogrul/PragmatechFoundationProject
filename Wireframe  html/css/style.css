@@ -1,5 +1,18 @@
-.container-span{
-    font-weight: bold;
-    border: 5px solid red;
-    font-size: 100px;
+/* header */
+
+.header{
+   border: 3px solid black;
+   font-size: 20px;
+   height: 100px;
 }
+.nav{
+   border: 3px solid black;
+   margin: 5px 20px;
+   height: 35px;
+}
+.header p{
+   padding: 5px;
+}
+
+/* section */
+
