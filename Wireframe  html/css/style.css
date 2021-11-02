@@ -17,6 +17,7 @@
 /* section */
 
 .section{
+ 
    border: 3px solid black;
    margin-top: 15px;
    height: 350px;
@@ -39,9 +40,25 @@
    margin-bottom: 7px;
    padding: 0 10px;
 }
+.section-a{
    
-/* section-a */
-
-/* .section-a{
    border: 3px solid black;
-} */
+   margin-top: 15px;
+   height: 350px;
+   font-size: 20px;
+   padding: 5px;
+}
+.section-b{
+   border: 3px solid black;
+   height: 75px;
+   padding: 5px;
+   margin: 10px 10px;
+}
+.footer{
+   border: 3px solid black;
+   margin: 0 75px;
+   height: 100px;
+   margin-bottom: 50px;
+   font-size: 20px;
+   padding: 15px;
+}
