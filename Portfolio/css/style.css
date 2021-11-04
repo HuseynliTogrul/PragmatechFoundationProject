@@ -1,5 +1,5 @@
 body{
-    background: url("/images/b.jfif") no-repeat center center fixed #000;
+    background: url("/images/a.jpg") no-repeat center center fixed #000;
      background-size: cover;
 }
 .container{
@@ -10,7 +10,8 @@ body{
     color: white;
     font-size: 45px;
     margin-top: 17px;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .elements{
     color: white;
@@ -21,9 +22,28 @@ body{
     display: flex;
     justify-content: space-between;
     font-family: "Poppins", sans-serif;
+    
 }
 .elements ul li{
     padding: 20px;
 }
 
 /*  */
+
+.naw{
+    text-align: center;
+    margin-top: 270px;
+}
+.Hi{
+    color: white;
+}
+.Hi p{
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 30px;
+
+}
+.Hi span{
+    font-size: 30px;
+
+}
