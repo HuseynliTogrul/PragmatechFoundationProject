@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
+} */
 #services{
     background: url("/images/a.jpg") no-repeat center center fixed #000;
     background-size: cover;
@@ -97,4 +97,21 @@
 }
 .about ul li p{
     margin-left: 15px;
+}
+
+/*  */
+
+#project{
+    height: 880px;
+}
+.hire{
+    height: 300px;
+    text-align: center;
+    background-color: #212121;
+}
+.hire{
+    font-size: 50px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
