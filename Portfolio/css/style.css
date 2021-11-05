@@ -1,28 +1,35 @@
-body{
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#services{
     background: url("/images/a.jpg") no-repeat center center fixed #000;
-     background-size: cover;
+    background-size: cover;
 }
 .container{
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+
 }
 .My-name{
     color: white;
-    font-size: 45px;
-    margin-top: 17px;
-    /* font-family: "Poppins", sans-serif; */
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+    
 }
 .elements{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
+    margin-top: 30px;
 }
 .elements ul{
     display: flex;
     justify-content: space-between;
     font-family: "Poppins", sans-serif;
-    
 }
 .elements ul li{
     padding: 20px;
@@ -30,8 +37,9 @@ body{
 
 /*  */
 
-.naw{
+.navbar{
     text-align: center;
+    height: 542px;
     margin-top: 270px;
 }
 .Hi{
@@ -40,10 +48,30 @@ body{
 .Hi p{
     font-size: 70px;
     font-weight: 900;
-    margin-bottom: 30px;
-
+    margin-bottom: 40px;
 }
 .Hi span{
     font-size: 30px;
+}
 
+/*  */
+
+.item{
+    height: 880px;
+}
+.item-foto{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 250px;
+    margin-bottom: 30px;
+}
+.item-foto img{
+    padding: 10px;
+    background: #dddddd;
+    border-radius: 50%;
+}
+.about{
+    width: 1200px;
+    margin: 0 auto;
 }
