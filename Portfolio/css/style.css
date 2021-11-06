@@ -1,8 +1,8 @@
-/* *{
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-} */
+}
 #services{
     background: url("/images/a.jpg") no-repeat center center fixed #000;
     background-size: cover;
@@ -11,14 +11,12 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-
 }
 .My-name{
     color: white;
     font-size: 40px;
     margin-top: 40px;
-    font-family: "Poppins", sans-serif;
-    
+    font-family: "Poppins", sans-serif;  
 }
 .elements{
     color: white;
@@ -102,16 +100,27 @@
 /*  */
 
 #project{
-    height: 880px;
+    height: 600px;
 }
 .hire{
-    height: 300px;
-    text-align: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #212121;
 }
-.hire{
+.hire span{
     font-size: 50px;
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    margin-top: 150px;
+}
+.hire button{
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #212121;
+    color: white;
+    border: 3px solid white;
 }
