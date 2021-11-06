@@ -124,3 +124,11 @@
     color: white;
     border: 3px solid white;
 }
+
+/*  */
+
+.contact-get{
+    height: 700px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+}
