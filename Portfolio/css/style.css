@@ -129,6 +129,24 @@
 
 .contact-get{
     height: 700px;
-    text-decoration: none;
-    background-repeat: no-repeat;
+}
+.get{
+    border: 1px solid red;
+    height: 100px;
+}
+.name{
+    border: 1px solid green;
+    height: 100px;
+}
+.gmail{
+    border: 1px solid rgb(0, 174, 255);
+    height: 100px;
+}
+.help{
+    border: 1px solid yellow;
+    height: 100px;
+}
+.message{
+    border: 1px solid blue;
+    height: 100px;
 }
