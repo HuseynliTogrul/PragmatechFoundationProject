@@ -128,7 +128,7 @@
 /*  */
 
 .contact-get{
-    height: 700px;
+    height: 800px;
 }
 .get{
     /* border: 1px solid red; */
@@ -186,4 +186,31 @@
     font-size: 17px;
     background-color: #212121;
     font-family: "Raleway", sans-serif;
+}
+.end-info{
+    margin-top: 80px;
+    background-color: #212121;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.end-contact{
+    color: white;
+    margin-top: 150px;
+}
+.end-togrul{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.end-social{
+    margin: 20px 0;
+    word-spacing: 10px;
+    font-size: 20px;
+}
+.end-word{
+    font-size: 20px;
+    color: gray;
 }
