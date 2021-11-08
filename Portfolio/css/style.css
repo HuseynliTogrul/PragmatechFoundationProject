@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #services{
-    background: url("/images/a.jpg") no-repeat center center fixed #000;
+    background: url("/images/s.jpg") no-repeat center center fixed #000;
     background-size: cover;
 }
 .container{
@@ -32,9 +32,6 @@
 .elements ul li{
     padding: 20px;
 }
-
-/*  */
-
 .navbar{
     text-align: center;
     height: 542px;
@@ -52,7 +49,7 @@
     font-size: 30px;
 }
 
-/*  */
+/* services bitdi */
 
 .item{
     height: 880px;
@@ -97,7 +94,7 @@
     margin-left: 15px;
 }
 
-/*  */
+/* info bitdi */
 
 #project{
     height: 600px;
@@ -125,13 +122,12 @@
     border: 3px solid white;
 }
 
-/*  */
+/* project bitdi */
 
 .contact-get{
     height: 800px;
 }
 .get{
-    /* border: 1px solid red; */
     height: 200px;
     display: flex;
     justify-content: center;
@@ -142,19 +138,16 @@
     margin-bottom: 20px;
 }
 .name{
-    /* border: 1px solid green; */
     height: 200px;
     color: gray;
     font-size: 20px;
     display: flex;
     align-items: flex-end;
-    
 }
 .name p{
     margin-bottom: 20px;
 }
 .gmail{
-    /* border: 1px solid rgb(0, 174, 255); */
     height: 200px;
     color: gray;
     font-size: 20px;
@@ -165,7 +158,6 @@
     margin-bottom: 20px;
 }
 .help{
-    /* border: 1px solid yellow; */
     height: 200px;
     color: gray;
     font-size: 20px;
@@ -175,7 +167,6 @@
     margin-top: 20px;
 }
 .message{
-    /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,6 +178,9 @@
     background-color: #212121;
     font-family: "Raleway", sans-serif;
 }
+
+/* contact bitdi */
+
 .end-info{
     margin-top: 80px;
     background-color: #212121;
@@ -214,3 +208,5 @@
     font-size: 20px;
     color: gray;
 }
+
+/* end bitdi */
