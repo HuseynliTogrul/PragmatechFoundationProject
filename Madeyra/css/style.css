@@ -1,3 +1,38 @@
 img{
-    width: 100%;
+    width: 200px;
+    object-fit: cover;
+}
+.container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-menu img{
+    margin-right: 40px;
+}
+.container-menu i{
+    margin: 0 5px;
+    font-size: 25px;
+}
+.container-menu p{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Poppins-SemiBold;
+}
+.container-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-social i{
+    margin: 0 10px;
+    font-size: 20px;
+}
+.container-social select{
+    font-size: 18px;
 }
