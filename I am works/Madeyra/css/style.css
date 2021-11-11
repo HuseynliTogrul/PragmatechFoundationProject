@@ -1,0 +1,92 @@
+img{
+    width: 160px;
+    object-fit: cover;
+}
+#services{
+    background-color: #eeeeee;
+    height: 80px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container-menu{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-menu img{
+    margin-right: 40px;
+}
+.container-menu i{
+    margin: 0 5px;
+    font-size: 22px;
+}
+.container-menu p{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Poppins-SemiBold;
+}
+.container-social{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-social i{
+    margin: 0 15px;
+    font-size: 22px;
+}
+.container-social select{
+    font-size: 18px;
+}
+.facebook{
+    color: #4867aa;
+}
+.instagram{
+    color: #db4271;
+}
+.whatsapp{
+    color: #27b13e;
+}
+.youtube{
+    color: #ff0000;
+}
+
+/* services bitdi */
+
+#menu{
+    background-color: red;
+    height: 80px;
+}
+.menu-basliq{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: white;
+    padding: 30px 0;
+    width: 1500px;
+}
+.esas-hisse,ul{
+    display: flex;
+    margin: 0 10px;
+    font-size: 25px;
+}
+.esas-hisse p{
+    color: black;
+    width: 200px;
+    background-color: white;
+    padding: 28px 10px;
+    margin-top: -30px;
+    
+}
+.menu-search i{
+    color: black;
+}
+.axtaris-hisse{
+    display: flex;
+}
+.axtaris-hisse select{
+    
+}

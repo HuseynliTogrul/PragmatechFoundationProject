@@ -1,0 +1,50 @@
+#info{
+    background-color: white;
+    padding: 15px 0px;
+    border: 1px solid #e4eaf5;
+}
+.info-container,
+.navbar-container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+.info-word,
+.info-social{
+    padding: 15px 0
+}
+.info-social i{
+    margin: 0 5px;
+}
+.navbar-contact li i{
+    color: #4eaf4e;
+}
+.navbar-contact li,
+.navbar-link li,
+.navbar-search span,
+.navbar-company li{
+    margin: 10px 0
+    
+}
+.navbar-container{
+    padding: 50px 0;
+}
+.navbar-contact li i,span{
+    margin-right: 5px;
+}
+.navbar-search input{
+    border-bottom: 1px solid gray;
+}
+.navbar-contact h3,
+.navbar-link h3,
+.navbar-company h3,
+.navbar-search h3{
+    font-weight: 600;
+}
+.navbar-contact h3,
+.navbar-link h3,
+.navbar-search h3,
+.navbar-company h3{
+    margin: 20px 0
+}

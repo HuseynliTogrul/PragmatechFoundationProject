@@ -1,0 +1,59 @@
+.container{
+    margin-top: 40px;
+}
+.container h1,h5,h6{
+    display: flex;
+    justify-content: center;
+}
+.container h1{
+    font-weight: normal  ;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+}
+.container h5{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color: #859196;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container h6{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color: #859196;
+    margin-bottom: 80px;
+}
+.service-item {
+    height: 250px;
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+.service-item img{
+    height: 100%;
+    width: 100%;
+}
+.item{
+    margin: 10px 30px;
+    height: 300px; 
+    padding: 0 10px;
+    font-family: "Raleway", sans-serif;
+}
+.item h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.item span{
+    color: #859196;
+    font-size: 17px;
+    line-height:1.8;
+}
+.item p{
+    color: #859196;
+    margin-top: 20px; 
+    line-height:1.8; 
+}
+.item p i{
+    color: #4586FF;
+    margin: 0 10px;
+    font-size: 15px;
+}

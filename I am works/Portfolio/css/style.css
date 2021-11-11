@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#services{
+    background: url("/images/s.jpg") no-repeat center center fixed #000;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.My-name{
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;  
+}
+.elements{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.elements ul{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+}
+.elements ul li{
+    padding: 20px;
+}
+.navbar{
+    text-align: center;
+    height: 542px;
+    margin-top: 270px;
+}
+.Hi{
+    color: white;
+}
+.Hi p{
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.Hi span{
+    font-size: 30px;
+}
+
+/* services bitdi */
+
+.item{
+    height: 880px;
+}
+.item-foto{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.item-foto img{
+    padding: 10px;
+    background: #dddddd;
+    border-radius: 50%;
+}
+.about{
+    font-family: "Poppins", sans-serif;
+}
+.about h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.about span{
+    color: gray;
+    font-size: 20px;
+    line-height: 1.5; 
+}
+.about ul{
+    margin-top: 40px;
+    font-size: 19px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about ul li{
+    width: 50%;
+    margin-bottom: 30px;
+    display: flex;
+}
+.about ul li p{
+    margin-left: 15px;
+}
+
+/* info bitdi */
+
+#project{
+    height: 600px;
+}
+.hire{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212121;
+}
+.hire span{
+    font-size: 50px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-top: 150px;
+}
+.hire button{
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #212121;
+    color: white;
+    border: 3px solid white;
+}
+
+/* project bitdi */
+
+.contact-get{
+    height: 800px;
+}
+.get{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.name{
+    height: 200px;
+    color: gray;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+.name p{
+    margin-bottom: 20px;
+}
+.gmail{
+    height: 200px;
+    color: gray;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+.gmail p{
+    margin-bottom: 20px;
+}
+.help{
+    height: 200px;
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.help p{
+    margin-top: 20px;
+}
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message button{
+    color: white;
+    padding: 20px 25px;
+    font-size: 17px;
+    background-color: #212121;
+    font-family: "Raleway", sans-serif;
+}
+
+/* contact bitdi */
+
+.end-info{
+    margin-top: 80px;
+    background-color: #212121;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.end-contact{
+    color: white;
+    margin-top: 150px;
+}
+.end-togrul{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.end-social{
+    margin: 20px 0;
+    word-spacing: 10px;
+    font-size: 20px;
+}
+.end-word{
+    font-size: 20px;
+    color: gray;
+}
+
+/* end bitdi */
