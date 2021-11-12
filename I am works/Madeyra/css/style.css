@@ -53,11 +53,17 @@ img{
 .youtube{
     color: #ff0000;
 }
+/* .flag img{
+    width: 30px;
+    height: 20px;
+    margin-top: 3px;
+    
+} */
 
 /* services bitdi */
 
 #menu{
-    background-color: red;
+    background-color: #df2027;
     height: 80px;
 }
 .menu-basliq{
@@ -73,20 +79,43 @@ img{
     margin: 0 10px;
     font-size: 25px;
 }
-.esas-hisse p{
+.esas-hisse ul li{
+    margin: 0 10px;
+}
+.list{
     color: black;
-    width: 200px;
+    width: 220px;
     background-color: white;
     padding: 28px 10px;
-    margin-top: -30px;
-    
+    margin-top: -30px; 
+    display: flex;
+}
+.list p{
+    margin-left: 10px;
 }
 .menu-search i{
-    color: black;
+    color: gray;
+    margin-left: -25px;
 }
 .axtaris-hisse{
     display: flex;
 }
 .axtaris-hisse select{
-    
+    margin-bottom: 30px;   
+}
+.menu-search {
+    margin-right: 40px;
+}
+.menu-search input{
+    width: 400px;
+    height: 50px;
+    margin-top: -20px;
+}
+.icon{
+    font-size: 35px;
+    margin-top: -8px;
+    margin-left: 30px;
+}
+.icon i{
+    margin: 0 5px;
 }
