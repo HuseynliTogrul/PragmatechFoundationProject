@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/* services basladi */
 #services{
     background: url("/images/s.jpg") no-repeat center center fixed #000;
     background-size: cover;
@@ -50,6 +51,7 @@
 }
 
 /* services bitdi */
+/* info basladi */
 
 .item{
     height: 880px;
@@ -95,6 +97,7 @@
 }
 
 /* info bitdi */
+/* project basladi */
 
 #project{
     height: 600px;
@@ -123,9 +126,13 @@
 }
 
 /* project bitdi */
+/* contact basladi */
 
 .contact-get{
     height: 800px;
+    font-family: "Open Sans", sans-serif;
+    width: 1200px;
+    margin: 0 auto;
 }
 .get{
     height: 200px;
@@ -134,15 +141,40 @@
     align-items: center;
     font-size: 60px;
     font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    margin-bottom: 20px;
+    font-weight: 900;
+    margin-bottom: -100px;
 }
+.get h1{
+    position: relative;
+}
+.get h1::after{
+    position: absolute;
+    content: "";
+    top: 60%;
+    right: 105%;
+    width: 40%;
+    height: 2px;
+    background: black;
+}
+.get h1::before{
+    position: absolute;
+    content: "";
+    right: -45%;
+    top: 60%;
+    width: 40%;
+    background: black;
+    height: 2px;
+}
+
 .name{
+    width: 570px;
     height: 200px;
     color: gray;
     font-size: 20px;
     display: flex;
     align-items: flex-end;
+    border-bottom: 3px solid black;
+    padding-left: 15px;
 }
 .name p{
     margin-bottom: 20px;
@@ -153,6 +185,10 @@
     font-size: 20px;
     display: flex;
     align-items: flex-end;
+    border-bottom: 3px solid black;
+    margin-left: 10px;
+    padding-left: 15px;
+
 }
 .gmail p{
     margin-bottom: 20px;
@@ -162,9 +198,12 @@
     color: gray;
     font-size: 20px;
     margin-bottom: 50px;
+    border-bottom: 3px solid black;
+    padding-left: 15px;
+
 }
 .help p{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .message{
     display: flex;
@@ -180,6 +219,7 @@
 }
 
 /* contact bitdi */
+/* end basladi */
 
 .end-info{
     margin-top: 80px;
