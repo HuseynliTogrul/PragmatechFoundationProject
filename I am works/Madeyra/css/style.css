@@ -2,6 +2,9 @@ img{
     width: 160px;
     object-fit: cover;
 }
+
+/* services basladi */
+
 #services{
     background-color: #eeeeee;
     height: 80px;
@@ -55,6 +58,7 @@ img{
 }
 
 /* services bitdi */
+/* menu basladi */
 
 #menu{
     background-color: #df2027;
@@ -112,4 +116,38 @@ img{
 }
 .icon i{
     margin: 0 5px;
+}
+
+/* menu bitdi */
+
+.kataloq{
+    /* border: 3px solid blue; */
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.kataloq-hissesi ul{
+    display: flex;
+    flex-direction: column;
+}
+.kataloq-hissesi ul li{
+    border: 1px solid rgb(237, 235, 235);
+    box-sizing: border-box;
+    width: 240px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 15px;
+    font-family: Poppins-SemiBold;
+}
+.kataloq-hissesi ul li i{
+    color: rgb(149 149 149);
+    margin-right: 15px;
+    font-size: 15px;
+}
+.mebel-foto img{
+    width: 100%;
+    height: 100%;
 }
