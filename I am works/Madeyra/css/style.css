@@ -2,6 +2,9 @@ img{
     width: 160px;
     object-fit: cover;
 }
+body{
+    background-color: #f9f9f9;
+}
 
 /* services basladi */
 
@@ -136,12 +139,15 @@ img{
     display: flex;
     justify-content: space-between;
 }
+.kataloq-hissesi{
+    background-color: white;
+}
 .kataloq-hissesi ul{
     display: flex;
     flex-direction: column;
     box-shadow: 3px 3px 2px 2px rgb(0 0 0 / 10%);
     box-sizing: border-box;
-    border-radius: 5%;
+    border-radius: 2%;
 }
 .kataloq-hissesi ul li{
     border: 1px solid rgb(237, 235, 235);
@@ -169,3 +175,42 @@ img{
 
 /* mebel bitdi */
 
+#item{
+ 
+}
+.item-container{
+    width: 1450px;
+    margin: 0 auto;
+    background: #ffffff;
+    margin-bottom: 40px;
+}
+.zemanet{
+    border: 1px solid green;
+    /* height: 100%; */
+}
+.zemanet-image{
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #df2027;
+    border-radius: 50px;
+}
+.zemanet img{
+    width: 40px;
+    height: 40px;
+}
+.zemanet p{ 
+    text-align: center;
+}
+.catdirilma{
+    border: 1px solid purple;
+}
+.meslehetci{
+    border: 1px solid yellow;
+}
+.kampaniya{
+    border: 1px solid orange;
+}
