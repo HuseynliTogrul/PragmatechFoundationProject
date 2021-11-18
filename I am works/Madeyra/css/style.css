@@ -72,10 +72,8 @@ body{
 .menu-basliq{
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
     color: white;
     padding: 30px 0;
-    width: 1500px;
 }
 .esas-hisse,ul{
     display: flex;
@@ -134,8 +132,6 @@ body{
 /* mebel basladi */
 
 .kataloq{
-    width: 1500px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -172,14 +168,10 @@ body{
 }
 
 /* mebel bitdi */
+/* item basladi */
 
-#item{
- 
-}
 .item-container{
-    width: 1450px;
-    margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding: 10px;
 }
 .zemanet,.catdirilma,.meslehetci,.kampaniya{
@@ -224,3 +216,34 @@ body{
 .kampaniya{
     margin-left: 30px;
 }
+
+/* item bitdi */
+/* endirim basladi */
+
+#endirim{
+    margin-bottom: 100px;
+}
+.endirim-container{
+    display: flex;
+}
+.endirim-foto{
+    width: 65%;
+    padding-right: 5px;
+}
+.endirim-foto img{
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+.kataloq-foto{
+    width: 35%;
+    padding-left: 5px;
+}
+.kataloq-foto img{
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+/* endirim qurtardi */
+

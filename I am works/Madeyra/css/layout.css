@@ -1,7 +1,7 @@
 /* Cedvel table */
 
-.container {
-    width: 1420px;
+.container,.menu-basliq,.item-container,.kataloq,.endirim-container{
+    width: 1500px;
     margin: 0 auto;
 }
 
