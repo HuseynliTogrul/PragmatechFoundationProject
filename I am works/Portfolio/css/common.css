@@ -1,0 +1,30 @@
+.flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-end{
+    align-items: flex-end;
+}
+.family-poppins{
+    font-family: "Poppins", sans-serif;  
+}
+.family-raleway{
+    font-family: 'Raleway', sans-serif;
+}
+.color{
+    color: white;
+}
+.text-align-center{
+    text-align: center;
+}
+.transition{
+    transition: all 0.5s ease 0s;
+}
