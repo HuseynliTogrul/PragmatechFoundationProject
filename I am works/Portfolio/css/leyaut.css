@@ -4,11 +4,7 @@
     width: 1500px;
     margin: 30px auto;
 }
-.item{
-    width: 1500px;
-    margin: 0 auto;
-}
-.contact-get{
+.item,.contact-get,.my-works{
     width: 1500px;
     margin: 0 auto;
 }
