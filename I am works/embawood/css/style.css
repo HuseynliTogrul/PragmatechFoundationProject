@@ -1,0 +1,76 @@
+#menu{
+    background: #333333;
+    font-size: 20px;
+    padding: 15px;
+}
+.container{
+    justify-content: space-between;
+}
+.container-menu ul{
+    align-items: center;
+    font-weight: 500;
+    font-family: "Segoe UI","Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.container-menu ul li{
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+}
+.container-menu ul li img{
+    margin: 0 5px;
+}
+.kredit{
+    color: #7cb903;
+}
+.magaza,.kampaniya{
+    color: white;
+}
+.out{
+    color: red;
+}
+.container-menu ul li i{
+    margin: 0 5px;
+    color: white;
+}
+.container-elaqe{
+    align-items: center;
+}
+.container-social i{
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 5px;
+    align-items: center;
+}
+
+.container-social i:first-child{
+    color: #ff0000;
+}
+.container-social i:nth-child(2){
+    color: #4867aa;
+}
+.container-social i:nth-child(3){
+    color: #db4271;
+}
+.container-social i:nth-child(4){
+    color: #0073b1;
+}
+.container-social i:nth-child(5){
+    color: rgb(46, 46, 250);
+}
+.number{
+    margin: 0 20px;
+    color: white;
+}
+.number i{
+    margin-right: 5px;
+}
+.number p{
+
+}
+.container-flag{
+    
+}
+.container-flag img{
+    margin: 0 5px;
+}
