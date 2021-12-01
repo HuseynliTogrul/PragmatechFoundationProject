@@ -32,31 +32,30 @@
     margin: 0 5px;
     color: white;
 }
-.container-elaqe{
-    align-items: center;
-}
-.container-social i{
+.container-social i,
+.container-social img{
     background-color: white;
     border-radius: 50%;
     padding: 5px;
     margin: 0 5px;
     align-items: center;
+    font-size: 20px;
 }
-
+.container-social img{
+    margin: -6px 5px;
+}
 .container-social i:first-child{
     color: #ff0000;
 }
 .container-social i:nth-child(2){
     color: #4867aa;
+    font-weight: 300;
 }
 .container-social i:nth-child(3){
-    color: #db4271;
+    color: rgb(238, 130, 144);
 }
 .container-social i:nth-child(4){
     color: #0073b1;
-}
-.container-social i:nth-child(5){
-    color: rgb(46, 46, 250);
 }
 .number{
     margin: 0 20px;
@@ -64,13 +63,34 @@
 }
 .number i{
     margin-right: 5px;
+    margin-top: 3px;
+    font-size: 20px;
 }
 .number p{
-
-}
-.container-flag{
-    
+    font-family: Poppins;
+    font-size: 25px;
 }
 .container-flag img{
     margin: 0 5px;
+    width: 25px;
+}
+
+/* menu bitdi */
+/* item basladi */
+
+#item{
+    margin-top: 50px;
+}
+.container-search input{
+    border-left: 1px solid blue;
+}
+.container-image{
+    border: 1px solid red;
+}
+.container-hesab{
+    border: 1px solid green;
+}
+.container ul{
+    display: flex;
+    justify-content: space-between;
 }
