@@ -79,18 +79,39 @@
 /* item basladi */
 
 #item{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .container-search input{
-    border-left: 1px solid blue;
+    border: none;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 20px;
+    width: 400px;
+    color: #858585;
+    padding: 10px 15px;
+}
+.container-search i{
+    margin: 0 -30px;
+    font-size: 20px;
+    color: #858585;
 }
 .container-image{
-    border: 1px solid red;
+    text-align: center;
+}
+.container-image img{
+    width: 270px;
 }
 .container-hesab{
-    border: 1px solid green;
+    margin-top: 20px;
 }
-.container ul{
-    display: flex;
+.container-hesab ul{
     justify-content: space-between;
+    font-size: 20px;
+    padding: 0 40px;
+}
+.container-hesab ul li{
+    display: flex;
+}
+.container-hesab ul li i{
+    margin: 0 5px;
+    color: #5d5d5d;
 }
