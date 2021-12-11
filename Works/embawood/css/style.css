@@ -1,0 +1,120 @@
+#menu{
+    background: #333333;
+    font-size: 20px;
+    padding: 15px;
+}
+.container{
+    justify-content: space-between;
+}
+.container-menu ul{
+    align-items: center;
+    font-weight: 500;
+    font-family: "Segoe UI","Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.container-menu ul li{
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+}
+.container-menu ul li img{
+    margin: 0 5px;
+}
+.kredit{
+    color: #7cb903;
+}
+.magaza,.kampaniya{
+    color: white;
+}
+.out{
+    color: red;
+}
+.container-menu ul li i{
+    margin: 0 5px;
+    color: white;
+}
+.container-social i,
+.container-social img{
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 5px;
+    align-items: center;
+    font-size: 20px;
+}
+.container-social img{
+    margin: -6px 5px;
+}
+.container-social i:first-child{
+    color: #ff0000;
+}
+.container-social i:nth-child(2){
+    color: #4867aa;
+    font-weight: 300;
+}
+.container-social i:nth-child(3){
+    color: rgb(238, 130, 144);
+}
+.container-social i:nth-child(4){
+    color: #0073b1;
+}
+.number{
+    margin: 0 20px;
+    color: white;
+}
+.number i{
+    margin-right: 5px;
+    margin-top: 3px;
+    font-size: 20px;
+}
+.number p{
+    font-family: Poppins;
+    font-size: 25px;
+}
+.container-flag img{
+    margin: 0 5px;
+    width: 25px;
+}
+
+/* menu bitdi */
+/* item basladi */
+
+#item{
+    margin-top: 20px;
+}
+.container-search input{
+    border: none;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 20px;
+    width: 400px;
+    color: #858585;
+    padding: 10px 15px;
+}
+.container-search i{
+    margin: 0 -30px;
+    font-size: 20px;
+    color: #858585;
+}
+.container-image{
+    text-align: center;
+}
+.container-image img{
+    width: 270px;
+}
+.container-hesab{
+    margin-top: 20px;
+}
+.container-hesab ul{
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 0 40px;
+}
+.container-hesab ul li{
+    display: flex;
+}
+.container-hesab ul li i{
+    margin: 0 5px;
+    color: #5d5d5d;
+}
+
+/* item bitdi */
+/* mebeller basladi */
