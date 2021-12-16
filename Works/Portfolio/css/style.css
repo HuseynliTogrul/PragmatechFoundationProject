@@ -15,6 +15,9 @@
     font-size: 40px;
     margin-top: 40px;
 }
+.My-name p{
+    cursor: pointer;
+}
 .elements{
     font-size: 25px;
     font-weight: bold;
@@ -22,6 +25,7 @@
 }
 .elements ul li{
     padding: 20px;
+    cursor: pointer;
 }
 .elements ul li:hover{
     color: gray;
@@ -84,6 +88,7 @@
     font-size: 20px;
     background: black;
     padding: 20px 25px;
+    cursor: pointer;
 }
 .cv button:hover{
     background: white;
@@ -132,6 +137,7 @@
     padding: 15px;
     background-color: #212121;
     border: 3px solid white;
+    cursor: pointer;
 }
 .hire button:hover{
     background: white;
@@ -184,6 +190,7 @@
     border-bottom: 3px solid black;
     padding-left: 15px;
     margin-top: -100px;
+    cursor: auto;
 }
 .name p{
     margin-bottom: 20px;
@@ -196,6 +203,7 @@
     margin-left: 10px;
     padding-left: 15px;
     margin-top: -100px;
+    cursor: auto;
 }
 .gmail p{
     margin-bottom: 20px;
@@ -207,6 +215,7 @@
     margin-bottom: 50px;
     border-bottom: 3px solid black;
     padding-left: 15px;
+    cursor: auto;
 }
 .help p{
     margin-top: 30px;
@@ -215,6 +224,7 @@
     padding: 20px 25px;
     font-size: 17px;
     background-color: #212121;
+    cursor: pointer;
 }
 .message button:hover{
     background: white;
@@ -236,6 +246,7 @@
 .end-togrul{
     font-size: 40px;
     font-weight: bold;
+    cursor: pointer;
 }
 .end-social{
     margin: 20px 0;
@@ -250,6 +261,7 @@
     height: 50px;
     text-align: center;
     line-height: 2;
+    cursor: pointer;
 }
 .end-social i:hover{
     background: white;
