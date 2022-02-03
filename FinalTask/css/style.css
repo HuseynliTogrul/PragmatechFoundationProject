@@ -13,14 +13,20 @@
 
 .container-basliq ul li {
     margin: 0 15px;
-    font-size: 18px;
+    font-size: 15px;
     font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 .container-basliq ul li a {
     text-decoration: none;
     color: black;
+}
+
+.container-basliq ul li a:hover {
+    color: #4cd6ee;
+    transition: all .3s linear;
 }
 
 .image img {
@@ -40,6 +46,12 @@
     padding: 10px 15px;
 }
 
+.image i:hover {
+    background-color: #4cd6ee;
+    color: white;
+    transition: all .3s linear;
+}
+
 .first {
     /* left: 1330px; */
     left: 97%;
@@ -48,4 +60,48 @@
 .second {
     /* right: 1330px; */
     right: 97%;
+}
+
+.letter {
+    position: absolute;
+    left: 150px;
+    bottom: 30%;
+}
+
+.letter h1 {
+    font-size: 25px;
+    border-left: 4px solid #56b3e9;
+    font-family: "Ubuntu", sans-serif;
+    padding: 0 15px;
+}
+
+.letter h5 {
+    margin: 30px 0;
+    font-weight: 600;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+}
+
+.letter button {
+    padding: 25px 30px;
+    color: white;
+    background-color: #86d05d;
+    border: none;
+}
+
+.letter button:hover {
+    background-color: #4cd6ee;
+    transition: all .3s linear;
+}
+
+.emergency {
+    border: 1px solid black;
+}
+
+.Appointment {
+    border: 1px solid black;
+}
+
+.Hours {
+    border: 1px solid black;
 }
