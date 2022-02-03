@@ -53,12 +53,10 @@
 }
 
 .first {
-    /* left: 1330px; */
     left: 97%;
 }
 
 .second {
-    /* right: 1330px; */
     right: 97%;
 }
 
@@ -100,20 +98,28 @@
 }
 
 .emergency {
-    border: 1px solid rgb(212, 211, 211);
-    /* box-sizing: border-box; */
-    padding: 20px 10px;
+    border: 1px solid rgb(245 242 242);
+    padding: 0 20px;
     font-size: 18px;
+    height: 280px;
 }
 
 .emergency h1 {
     font-weight: 600;
+    margin-top: 30px;
 }
 
 .number {
     display: flex;
     justify-content: flex-start;
     margin: 30px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(245 242 242);
+}
+
+.number p:hover {
+    color: #4cd6ee;
+    transition: all .3s linear;
 }
 
 .number i {
@@ -123,12 +129,79 @@
 
 .clinic {
     color: gray;
+    margin-bottom: 70px;
+    font-size: 15px;
 }
 
 .Appointment {
-    border: 1px solid rgb(212, 211, 211);
+    border: 1px solid rgb(245 242 242);
+    height: 280px;
+}
+
+.Appointment h1 {
+    margin: 40px 15px 20px 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.phone {
+    position: relative;
+}
+
+.phone input,
+.mail input {
+    border: 1px solid rgb(245 242 242);
+    padding: 20px;
+    color: gray;
+    margin: 10px;
+}
+
+.phone i {
+    color: gray;
+    position: absolute;
+    left: 195px;
+    bottom: 30px;
+}
+
+.mail button {
+    background-color: #ebebeb;
+    padding: 20px;
+    border: 1px solid rgb(245 242 242);
+    margin: 10px;
+    width: 210px;
+}
+
+.mail button:hover {
+    background: #4cd6ee;
+    transition: all .3s linear
 }
 
 .Hours {
-    border: 1px solid rgb(212, 211, 211);
+    border: 1px solid rgb(245 242 242);
+    width: 400px;
+    height: 280px;
+}
+
+.Hours h1 {
+    margin: 40px 15px 20px 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.Hours ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 10px;
+    border-bottom: 1px solid rgb(245 242 242);
+    padding: 10px 0;
+}
+
+.Hours ul li:nth-child(3) {
+    border-bottom: none;
+}
+
+.Hours ul li h5 {
+    color: gray;
 }
