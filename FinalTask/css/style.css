@@ -1,0 +1,51 @@
+#home {
+    padding: 40px 15px;
+}
+
+.task-container {
+    justify-content: space-between;
+}
+
+.container-basliq {
+    justify-content: center;
+    align-items: center;
+}
+
+.container-basliq ul li {
+    margin: 0 15px;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+
+.container-basliq ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.image img {
+    width: 100%;
+    position: relative;
+}
+
+.first,
+.second {
+    position: absolute;
+    bottom: 250px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    color: #151515;
+    background-color: #fff;
+    padding: 10px 15px;
+}
+
+.first {
+    /* left: 1330px; */
+    left: 97%;
+}
+
+.second {
+    /* right: 1330px; */
+    right: 97%;
+}
