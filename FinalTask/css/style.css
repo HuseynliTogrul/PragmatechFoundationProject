@@ -31,7 +31,6 @@
   
   .image img {
       width: 100%;
-      position: relative;
   }
   
   .first,
@@ -206,8 +205,8 @@
       color: gray;
   }
   
-  #about-us {
-      background-color: #f5f5f5;
+  .container-about {
+      background: #f5f5f5;
   }
   
   .about-first,
@@ -228,8 +227,7 @@
       background-color: white;
       font-family: "Ubuntu", sans-serif;
   }
-  
-  .about-item1 {
+  /* .about-item1 {
       border-right: 1px solid black;
       border-bottom: 1px solid black;
   }
@@ -238,6 +236,7 @@
       border-left: 1px solid black;
       border-top: 1px solid black;
   }
+   */
   
   .about-first i,
   .about-second i {
@@ -308,4 +307,69 @@
   .foto-span h5 {
       color: gray;
       line-height: 25px;
+  }
+  
+  .service {
+      display: flex;
+      justify-content: space-between;
+      margin: 30px 20px;
+      font-family: "Ubuntu", sans-serif;
+      border-bottom: 1px solid rgb(177, 177, 177);
+  }
+  
+  .service h1 {
+      font-weight: 500;
+      font-size: 30px;
+      margin: 20px;
+  }
+  
+  .service-icon i {
+      border: 1px solid rgb(216, 216, 216);
+      padding: 15px 18px;
+  }
+  
+  .service-icon i:hover {
+      background: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  .service-icon button {
+      border: none;
+      padding: 20px 40px;
+  }
+  
+  .service-icon button:hover {
+      color: white;
+      background: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  .services-item {
+      margin: 50px 0;
+      font-family: "Ubuntu", sans-serif;
+  }
+  
+  .services-item ul {
+      display: flex;
+  }
+  
+  .services-item ul li {
+      margin: 0 10px;
+      overflow: hidden;
+  }
+  
+  .services-item ul li h1 {
+      font-weight: 500;
+      font-size: 20px;
+      margin: 10px 0;
+  }
+  
+  .services-item ul li h1:hover {
+      color: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  .services-item ul li p {
+      color: gray;
+      font-size: 16px;
   }
