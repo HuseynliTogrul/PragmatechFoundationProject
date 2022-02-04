@@ -345,7 +345,7 @@
   }
   
   .services-item {
-      margin: 50px 0;
+      margin: 30px 0;
       font-family: "Ubuntu", sans-serif;
   }
   
@@ -372,4 +372,39 @@
   .services-item ul li p {
       color: gray;
       font-size: 16px;
+  }
+  
+  #solving {
+      margin: 100px 0;
+      background-image: url("/images/bg.jpg");
+      height: 400px;
+      font-family: "Ubuntu", sans-serif;
+  }
+  
+  .solving-foto {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      height: 400px;
+  }
+  
+  .solving-foto h1 {
+      font-weight: 600;
+      font-size: 20px;
+  }
+  
+  .solving-foto p {
+      margin: 20px 0;
+  }
+  
+  .solving-foto button {
+      border: none;
+      padding: 18px 40px;
+      background-color: #86d05d;
+      color: white;
+  }
+  
+  .solving-foto button:hover {
+      background: #4cd6ee;
   }
