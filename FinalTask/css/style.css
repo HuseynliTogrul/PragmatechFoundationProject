@@ -1,207 +1,226 @@
-#home {
-    padding: 40px 15px;
-}
-
-.task-container {
-    justify-content: space-between;
-}
-
-.container-basliq {
-    justify-content: center;
-    align-items: center;
-}
-
-.container-basliq ul li {
-    margin: 0 15px;
-    font-size: 15px;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
-
-.container-basliq ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-.container-basliq ul li a:hover {
-    color: #4cd6ee;
-    transition: all .3s linear;
-}
-
-.image img {
-    width: 100%;
-    position: relative;
-}
-
-.first,
-.second {
-    position: absolute;
-    bottom: 250px;
-    font-size: 18px;
-    display: flex;
-    justify-content: space-between;
-    color: #151515;
-    background-color: #fff;
-    padding: 10px 15px;
-}
-
-.image i:hover {
-    background-color: #4cd6ee;
-    color: white;
-    transition: all .3s linear;
-}
-
-.first {
-    left: 97%;
-}
-
-.second {
-    right: 97%;
-}
-
-.letter {
-    position: absolute;
-    left: 150px;
-    bottom: 30%;
-}
-
-.letter h1 {
-    font-size: 25px;
-    border-left: 4px solid #56b3e9;
-    font-family: "Ubuntu", sans-serif;
-    padding: 0 15px;
-}
-
-.letter h5 {
-    margin: 30px 0;
-    font-weight: 600;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 40px;
-}
-
-.letter button {
-    padding: 25px 30px;
-    color: white;
-    background-color: #86d05d;
-    border: none;
-}
-
-.letter button:hover {
-    background-color: #4cd6ee;
-    transition: all .3s linear;
-}
-
-.dental-time {
-    margin: 100px 10px;
-    font-family: "Ubuntu", sans-serif;
-}
-
-.emergency {
-    border: 1px solid rgb(245 242 242);
-    padding: 0 20px;
-    font-size: 18px;
-    height: 280px;
-}
-
-.emergency h1 {
-    font-weight: 600;
-    margin-top: 30px;
-}
-
-.number {
-    display: flex;
-    justify-content: flex-start;
-    margin: 30px 0;
-    padding: 20px 0;
-    border-bottom: 1px solid rgb(245 242 242);
-}
-
-.number p:hover {
-    color: #4cd6ee;
-    transition: all .3s linear;
-}
-
-.number i {
-    color: #4cd6ee;
-    margin-right: 20px;
-}
-
-.clinic {
-    color: gray;
-    margin-bottom: 70px;
-    font-size: 15px;
-}
-
-.Appointment {
-    border: 1px solid rgb(245 242 242);
-    height: 280px;
-}
-
-.Appointment h1 {
-    margin: 40px 15px 20px 15px;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-}
-
-.phone {
-    position: relative;
-}
-
-.phone input,
-.mail input {
-    border: 1px solid rgb(245 242 242);
-    padding: 20px;
-    color: gray;
-    margin: 10px;
-}
-
-.phone i {
-    color: gray;
-    position: absolute;
-    left: 195px;
-    bottom: 30px;
-}
-
-.mail button {
-    background-color: #ebebeb;
-    padding: 20px;
-    border: 1px solid rgb(245 242 242);
-    margin: 10px;
-    width: 210px;
-}
-
-.mail button:hover {
-    background: #4cd6ee;
-    transition: all .3s linear
-}
-
-.Hours {
-    border: 1px solid rgb(245 242 242);
-    width: 400px;
-    height: 280px;
-}
-
-.Hours h1 {
-    margin: 40px 15px 20px 15px;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-}
-
-.Hours ul li {
-    display: flex;
-    justify-content: space-between;
-    margin: 25px 10px;
-    border-bottom: 1px solid rgb(245 242 242);
-    padding: 10px 0;
-}
-
-.Hours ul li:nth-child(3) {
-    border-bottom: none;
-}
-
-.Hours ul li h5 {
-    color: gray;
-}
+                                            #home {
+                                            padding: 40px 15px;
+                                        }
+                                        
+                                        .task-container {
+                                            justify-content: space-between;
+                                        }
+                                        
+                                        .container-basliq {
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        
+                                        .container-basliq ul li {
+                                            margin: 0 15px;
+                                            font-size: 15px;
+                                            font-family: "Ubuntu", sans-serif;
+                                            font-weight: 600;
+                                            letter-spacing: 2px;
+                                        }
+                                        
+                                        .container-basliq ul li a {
+                                            text-decoration: none;
+                                            color: black;
+                                        }
+                                        
+                                        .container-basliq ul li a:hover {
+                                            color: #4cd6ee;
+                                            transition: all .3s linear;
+                                        }
+                                        
+                                        .image img {
+                                            width: 100%;
+                                            position: relative;
+                                        }
+                                        
+                                        .first,
+                                        .second {
+                                            position: absolute;
+                                            bottom: 250px;
+                                            font-size: 18px;
+                                            display: flex;
+                                            justify-content: space-between;
+                                            color: #151515;
+                                            background-color: #fff;
+                                            padding: 10px 15px;
+                                        }
+                                        
+                                        .image i:hover {
+                                            background-color: #4cd6ee;
+                                            color: white;
+                                            transition: all .3s linear;
+                                        }
+                                        
+                                        .first {
+                                            left: 97%;
+                                        }
+                                        
+                                        .second {
+                                            right: 97%;
+                                        }
+                                        
+                                        .letter {
+                                            position: absolute;
+                                            left: 150px;
+                                            bottom: 30%;
+                                        }
+                                        
+                                        .letter h1 {
+                                            font-size: 25px;
+                                            border-left: 4px solid #56b3e9;
+                                            font-family: "Ubuntu", sans-serif;
+                                            padding: 0 15px;
+                                        }
+                                        
+                                        .letter h5 {
+                                            margin: 30px 0;
+                                            font-weight: 600;
+                                            font-family: "Ubuntu", sans-serif;
+                                            font-size: 40px;
+                                        }
+                                        
+                                        .letter button {
+                                            padding: 25px 30px;
+                                            color: white;
+                                            background-color: #86d05d;
+                                            border: none;
+                                        }
+                                        
+                                        .letter button:hover {
+                                            background-color: #4cd6ee;
+                                            transition: all .3s linear;
+                                        }
+                                        
+                                        .dental-time {
+                                            margin: 100px 10px;
+                                            font-family: "Ubuntu", sans-serif;
+                                        }
+                                        
+                                        .emergency {
+                                            border: 1px solid rgb(245 242 242);
+                                            padding: 0 20px;
+                                            font-size: 18px;
+                                            height: 280px;
+                                        }
+                                        
+                                        .emergency h1 {
+                                            font-weight: 600;
+                                            margin-top: 30px;
+                                        }
+                                        
+                                        .number {
+                                            display: flex;
+                                            justify-content: flex-start;
+                                            margin: 30px 0;
+                                            padding: 20px 0;
+                                            border-bottom: 1px solid rgb(245 242 242);
+                                        }
+                                        
+                                        .number p:hover {
+                                            color: #4cd6ee;
+                                            transition: all .3s linear;
+                                        }
+                                        
+                                        .number i {
+                                            color: #4cd6ee;
+                                            margin-right: 20px;
+                                        }
+                                        
+                                        .clinic {
+                                            color: gray;
+                                            margin-bottom: 70px;
+                                            font-size: 15px;
+                                        }
+                                        
+                                        .Appointment {
+                                            border: 1px solid rgb(245 242 242);
+                                            height: 280px;
+                                        }
+                                        
+                                        .Appointment h1 {
+                                            margin: 40px 15px 20px 15px;
+                                            font-family: "Ubuntu", sans-serif;
+                                            font-weight: 600;
+                                            font-size: 18px;
+                                        }
+                                        
+                                        .phone {
+                                            position: relative;
+                                        }
+                                        
+                                        .phone input,
+                                        .mail input {
+                                            border: 1px solid rgb(245 242 242);
+                                            padding: 20px;
+                                            color: gray;
+                                            margin: 10px;
+                                        }
+                                        
+                                        .phone i {
+                                            color: gray;
+                                            position: absolute;
+                                            left: 195px;
+                                            bottom: 30px;
+                                        }
+                                        
+                                        .mail button {
+                                            background-color: #ebebeb;
+                                            padding: 20px;
+                                            border: 1px solid rgb(245 242 242);
+                                            margin: 10px;
+                                            width: 210px;
+                                        }
+                                        
+                                        .mail button:hover {
+                                            background: #4cd6ee;
+                                            transition: all .3s linear
+                                        }
+                                        
+                                        .Hours {
+                                            border: 1px solid rgb(245 242 242);
+                                            width: 400px;
+                                            height: 280px;
+                                        }
+                                        
+                                        .Hours h1 {
+                                            margin: 40px 15px 20px 15px;
+                                            font-family: "Ubuntu", sans-serif;
+                                            font-weight: 600;
+                                            font-size: 18px;
+                                        }
+                                        
+                                        .Hours ul li {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            margin: 25px 10px;
+                                            border-bottom: 1px solid rgb(245 242 242);
+                                            padding: 10px 0;
+                                        }
+                                        
+                                        .Hours ul li:nth-child(3) {
+                                            border-bottom: none;
+                                        }
+                                        
+                                        .Hours ul li h5 {
+                                            color: gray;
+                                        }
+                                        
+                                        #about-us {
+                                            background-color: #f5f5f5;
+                                        }
+                                        
+                                        .about-item1 {
+                                            border: 1px solid black;
+                                        }
+                                        
+                                        .about-item2 {
+                                            border: 1px solid black;
+                                        }
+                                        
+                                        .about-item3 {
+                                            border: 1px solid black;
+                                        }
+                                        
+                                        .about-item4 {
+                                            border: 1px solid black;
