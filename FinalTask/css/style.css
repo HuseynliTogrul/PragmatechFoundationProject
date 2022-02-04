@@ -408,3 +408,106 @@
   .solving-foto button:hover {
       background: #4cd6ee;
   }
+  
+  #testimonials {
+      font-family: "Ubuntu", sans-serif;
+      margin: 100px 0;
+  }
+  
+  .client {
+      display: flex;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 30px;
+      margin-bottom: 20px;
+  }
+  
+  .client-foto ul {
+      display: flex;
+  }
+  
+  .client-foto ul li {
+      margin: 0 20px;
+      border: 1px solid rgb(223, 221, 221);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 20px;
+  }
+  
+  .client-foto ul li span {
+      margin: 20px 0;
+      color: gray;
+  }
+  
+  .doctors {
+      display: flex;
+      justify-content: space-between;
+      margin: 30px 20px;
+      font-family: "Ubuntu", sans-serif;
+      border-bottom: 1px solid rgb(177, 177, 177);
+  }
+  
+  .doctors h1 {
+      font-weight: 500;
+      font-size: 30px;
+      margin: 20px;
+  }
+  
+  .doctors-icon i {
+      border: 1px solid rgb(216, 216, 216);
+      padding: 15px 18px;
+  }
+  
+  .doctors-icon i:hover {
+      background: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  .doctors-icon button {
+      border: none;
+      padding: 20px 40px;
+  }
+  
+  .doctors-icon button:hover {
+      color: white;
+      background: #4cd6ee;
+      transition: all .3s linear;
+  }
+  
+  .doctor-foto {
+      margin: 100px 0;
+      font-family: "Ubuntu", sans-serif;
+  }
+  
+  .doctor-foto ul {
+      display: flex;
+  }
+  
+  .doctor-foto ul li {
+      overflow: hidden;
+      margin: 0 15px;
+  }
+  
+  .foto-yazi {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #4cd6ee;
+      color: white;
+      padding: 35px 0;
+  }
+  
+  .foto-yazi span {
+      margin: 10px 0;
+      border-bottom: 1px solid rgb(143, 192, 221);
+      padding: 10px 0;
+  }
+  
+  .phone-icon {
+      display: flex;
+  }
+  
+  .phone-icon p {
+      margin: 0 10px;
+  }
