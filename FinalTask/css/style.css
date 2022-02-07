@@ -1,20 +1,14 @@
+  body {
+      font-family: "Ubuntu", sans-serif;
+  }
+  
   #home {
       padding: 40px 15px;
-  }
-  
-  .task-container {
-      justify-content: space-between;
-  }
-  
-  .container-basliq {
-      justify-content: center;
-      align-items: center;
   }
   
   .container-basliq ul li {
       margin: 0 15px;
       font-size: 15px;
-      font-family: "Ubuntu", sans-serif;
       font-weight: 600;
       letter-spacing: 2px;
   }
@@ -38,8 +32,6 @@
       position: absolute;
       bottom: 250px;
       font-size: 18px;
-      display: flex;
-      justify-content: space-between;
       color: #151515;
       background-color: #fff;
       padding: 10px 15px;
@@ -68,14 +60,11 @@
   .letter h1 {
       font-size: 25px;
       border-left: 4px solid #57afe2;
-      font-family: "Ubuntu", sans-serif;
       padding: 0 15px;
   }
   
   .letter h5 {
       margin: 30px 0;
-      font-weight: 600;
-      font-family: "Ubuntu", sans-serif;
       font-size: 40px;
   }
   
@@ -93,7 +82,6 @@
   
   .dental-time {
       margin: 100px 10px;
-      font-family: "Ubuntu", sans-serif;
   }
   
   .emergency {
@@ -104,12 +92,10 @@
   }
   
   .emergency h1 {
-      font-weight: 600;
       margin-top: 30px;
   }
   
   .number {
-      display: flex;
       justify-content: flex-start;
       margin: 30px 0;
       padding: 20px 0;
@@ -122,7 +108,6 @@
   }
   
   .number i {
-      color: #4cd6ee;
       margin-right: 20px;
   }
   
@@ -132,7 +117,6 @@
   }
   
   .clinic {
-      color: gray;
       margin-bottom: 70px;
       font-size: 15px;
   }
@@ -144,8 +128,6 @@
   
   .Appointment h1 {
       margin: 40px 15px 20px 15px;
-      font-family: "Ubuntu", sans-serif;
-      font-weight: 600;
       font-size: 18px;
   }
   
@@ -157,12 +139,10 @@
   .mail input {
       border: 1px solid rgb(245 242 242);
       padding: 20px;
-      color: gray;
       margin: 10px;
   }
   
   .phone i {
-      color: gray;
       position: absolute;
       left: 195px;
       bottom: 30px;
@@ -189,14 +169,10 @@
   
   .Hours h1 {
       margin: 40px 15px 20px 15px;
-      font-family: "Ubuntu", sans-serif;
-      font-weight: 600;
       font-size: 18px;
   }
   
   .Hours ul li {
-      display: flex;
-      justify-content: space-between;
       margin: 25px 10px;
       border-bottom: 1px solid rgb(245 242 242);
       padding: 10px 0;
@@ -206,17 +182,8 @@
       border-bottom: none;
   }
   
-  .Hours ul li h5 {
-      color: gray;
-  }
-  
   .container-about {
       background: #f5f5f5;
-  }
-  
-  .about-first,
-  .about-second {
-      display: flex;
   }
   
   .about-item1,
@@ -225,17 +192,12 @@
   .about-item4 {
       width: 50%;
       margin: 30px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       padding: 60px 0;
       background-color: white;
-      font-family: "Ubuntu", sans-serif;
   }
   
   .about-first i,
   .about-second i {
-      color: #4cd6ee;
       font-size: 30px;
   }
   
@@ -248,7 +210,6 @@
   
   .about-first p,
   .about-second p {
-      color: gray;
       font-size: 15px;
   }
   
@@ -256,22 +217,18 @@
       background-color: white;
       margin: 40px;
       padding: 20px;
-      font-family: "Ubuntu", sans-serif;
   }
   
   .about-clinic h1 {
       font-size: 30px;
-      font-weight: 600;
       margin-bottom: 20px;
   }
   
   .about-clinic span {
-      color: gray;
       line-height: 25px;
   }
   
   .about-foto {
-      display: flex;
       margin-top: 30px;
   }
   
@@ -280,8 +237,6 @@
   }
   
   .foto-span {
-      display: flex;
-      flex-direction: column;
       margin-top: 20px;
   }
   
@@ -291,7 +246,6 @@
   }
   
   .foto-span h3 {
-      color: #4cd6ee;
       font-size: 15px;
       letter-spacing: 2px;
       margin: 10px 0 20px 0;
@@ -300,15 +254,11 @@
   }
   
   .foto-span h5 {
-      color: gray;
       line-height: 25px;
   }
   
   .service {
-      display: flex;
-      justify-content: space-between;
       margin: 30px 20px;
-      font-family: "Ubuntu", sans-serif;
       border-bottom: 1px solid rgb(177, 177, 177);
   }
   
@@ -341,11 +291,9 @@
   
   .services-item {
       margin: 30px 0;
-      font-family: "Ubuntu", sans-serif;
   }
   
   .services-item ul {
-      display: flex;
       overflow: hidden;
   }
   
@@ -365,7 +313,6 @@
   }
   
   .services-item ul li p {
-      color: gray;
       font-size: 16px;
   }
   
@@ -373,19 +320,13 @@
       margin: 100px 0;
       background-image: url("/images/bg.jpg");
       height: 400px;
-      font-family: "Ubuntu", sans-serif;
   }
   
   .solving-foto {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
       height: 400px;
   }
   
   .solving-foto h1 {
-      font-weight: 600;
       font-size: 20px;
   }
   
@@ -406,41 +347,26 @@
   }
   
   #testimonials {
-      font-family: "Ubuntu", sans-serif;
       margin: 100px 0;
   }
   
   .client {
-      display: flex;
-      justify-content: center;
-      font-weight: 600;
       font-size: 30px;
       margin-bottom: 20px;
-  }
-  
-  .client-foto ul {
-      display: flex;
   }
   
   .client-foto ul li {
       margin: 0 20px;
       border: 1px solid rgb(223, 221, 221);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       padding: 30px 20px;
   }
   
   .client-foto ul li span {
       margin: 20px 0;
-      color: gray;
   }
   
   .doctors {
-      display: flex;
-      justify-content: space-between;
       margin: 30px 20px;
-      font-family: "Ubuntu", sans-serif;
       border-bottom: 1px solid rgb(177, 177, 177);
   }
   
@@ -472,12 +398,7 @@
   }
   
   .doctor-foto {
-      margin: 100px 0;
-      font-family: "Ubuntu", sans-serif;
-  }
-  
-  .doctor-foto ul {
-      display: flex;
+      margin: 50px 0;
   }
   
   .doctor-foto ul li {
@@ -486,18 +407,13 @@
   }
   
   .foto-yazi {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       background: #4cd6ee;
       color: white;
-      padding: 35px 0;
+      padding: 35px;
   }
   
-  .foto-yazi span {
-      margin: 10px 0;
-      border-bottom: 1px solid rgb(143, 192, 221);
-      padding: 10px 0;
+  .foto-yazi h1 {
+      margin-bottom: 10px;
   }
   
   .foto-yazi h1:hover {
@@ -505,13 +421,13 @@
       transition: all .3s linear;
   }
   
+  .phone-icon {
+      margin-top: 10px;
+  }
+  
   .phone-icon p:hover {
       color: #56b3e9;
       transition: all .3s linear;
-  }
-  
-  .phone-icon {
-      display: flex;
   }
   
   .phone-icon p {
@@ -520,7 +436,6 @@
   
   #contacts {
       display: flex;
-      font-family: "Ubuntu", sans-serif;
       background: #f5f5f5;
   }
   
@@ -530,21 +445,15 @@
   }
   
   .touch-basliq h1 {
-      display: flex;
-      justify-content: center;
-      font-weight: 600;
       font-size: 25px;
   }
   
   .touch-basliq p {
-      color: gray;
       letter-spacing: 2px;
       margin: 20px 15px;
   }
   
   .touch-left {
-      display: flex;
-      flex-direction: column;
       width: 50%;
       position: relative;
   }
@@ -557,8 +466,6 @@
   }
   
   .touch-right {
-      display: flex;
-      flex-direction: column;
       width: 50%;
   }
   
@@ -567,11 +474,6 @@
       border: none;
       margin: 10px;
       padding: 15px 20px;
-  }
-  
-  .touch-left-right {
-      display: flex;
-      justify-content: space-between;
   }
   
   .touch-left-right input {
@@ -638,12 +540,7 @@
       color: #4cd6ee;
   }
   
-  .end-location {
-      color: gray;
-  }
-  
   .services-item {
-      display: flex;
       justify-content: flex-start;
   }
   
@@ -654,10 +551,6 @@
   .services-item i {
       margin-right: 5px;
       color: #4cd6ee;
-  }
-  
-  .services-item span {
-      color: gray;
   }
   
   .services1,
