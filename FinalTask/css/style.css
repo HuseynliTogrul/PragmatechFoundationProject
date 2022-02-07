@@ -346,11 +346,11 @@
   
   .services-item ul {
       display: flex;
+      overflow: hidden;
   }
   
   .services-item ul li {
       margin: 0 10px;
-      overflow: hidden;
   }
   
   .services-item ul li h1 {
