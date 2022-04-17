@@ -1,4 +1,4 @@
-# Aidə İsayeva
+# Togrul Huseynli
 ## Haqqımda qısa məlumat
 - Tədrisə başladığım tarix : 15 Mart 2021
 - Tədrisi başa vurduğum tarix :
